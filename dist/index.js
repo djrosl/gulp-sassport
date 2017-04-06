@@ -49,8 +49,8 @@ function gulpSassport() {
     return gulpSassport;
   };
 
-  gulpSassport.variables = function (variableMap) {
-    sassportModule.variables(variableMap);
+  gulpSassport.globals = function (variableMap) {
+    sassportModule.globals(variableMap);
 
     return gulpSassport;
   };
